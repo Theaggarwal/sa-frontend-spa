@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "y": {
+    "web-admin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
