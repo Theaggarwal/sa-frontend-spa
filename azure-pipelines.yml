@@ -24,6 +24,15 @@ steps:
     ng build --configuration production
   displayName: 'ng build'
 
+# (Optional – keep once for validation, then remove)
+- script: |
+    ls dist/web-admin/browser
+  displayName: 'Verify build output'
+
+- script: |
+    ls dist
+  displayName: 'Verify build output root'
+
 - task: AzureStaticWebApp@0
   inputs:
     app_location: '/'
