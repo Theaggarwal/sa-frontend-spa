@@ -26,6 +26,7 @@ steps:
 
 - task: AzureStaticWebApp@0
   inputs:
-    app_location: 'dist/web-admin'
+    app_location: '/'
+    output_location: 'dist/web-admin'
     skip_app_build: true
     azure_static_web_apps_api_token: '$(SWA_TOKEN)'
