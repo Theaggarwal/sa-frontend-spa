@@ -27,6 +27,6 @@ steps:
 - task: AzureStaticWebApp@0
   inputs:
     app_location: '/'
-    output_location: 'dist/web-admin'
+    output_location: "dist/web-admin/browser" # on ng build, files got saved in this location. SWA looks for:<output_location>/index.html
     skip_app_build: true
     azure_static_web_apps_api_token: '$(SWA_TOKEN)'
