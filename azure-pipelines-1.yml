@@ -35,4 +35,4 @@ steps:
   inputs:
     app_location: 'dist/web-admin/browser' # on ng build, files got saved in this location. SWA looks for:<app_location>/index.html
     skip_app_build: true
-    azure_static_web_apps_api_token: '$(SWA_TOKEN_2)'
+    azure_static_web_apps_api_token: 'ef0c8f7c02349b980574f10aa43ed4bef46d1407d30e107c2f839f1f088348a306-2ae1366e-5044-408a-ada4-1f2fd644b5850002308017506100'
